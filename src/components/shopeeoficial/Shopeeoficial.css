@@ -1,0 +1,101 @@
+.container-shopee {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container-shopee-oficial {
+  display: flex;
+  background-color: white;
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  position: relative;
+}
+.container-header-shopee-oficial {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.container-logo-shopee-oficial h4 {
+  color: red;
+  padding: 5px 25px 5px 15px;
+  border-right: 1px solid gray;
+}
+.container-shopee-center {
+  display: flex;
+  width: 50%;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.facility {
+  background-color: green;
+}
+.see-all {
+  display: flex;
+  align-items: flex-end;
+  color: red;
+  text-align: center;
+  background-color: aliceblue;
+
+  justify-content: center;
+  position: absolute;
+  top: 23px;
+  right: 30px;
+}
+
+.container-img-bussiness {
+  display: flex;
+  background-color: white;
+}
+
+.container-pascoa {
+  flex: 3;
+  max-width: 400px;
+  height: 400px;
+}
+
+.container-img-pascoa {
+  width: 400px;
+  height: 406px;
+}
+
+.container-company {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 406px;
+}
+
+.company-line1,
+.company-line2 {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  max-width: 900px;
+  height: 203px;
+}
+.company-line2 img {
+  height: 200px;
+}
+.container-img {
+  flex: 1;
+  max-width: 100%;
+  background-color: white !important;
+}
+
+img {
+  max-width: 100%;
+}

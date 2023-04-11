@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon-and-text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:150px;
+    height: 90px;
+    gap: 5px;
+
+
+
+}
+.container-list{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.icon-principal{
+    width:45px;
+    
+}
+.name-icon{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+
+}

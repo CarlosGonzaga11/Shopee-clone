@@ -1,0 +1,22 @@
+
+.container{
+    background-color: blue;
+
+}
+.container-banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 260px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.icons-principal{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-top: -5px;
+    justify-content: center;
+}

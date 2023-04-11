@@ -1,0 +1,33 @@
+/* .categoria-map2{
+    display:flex;
+    background-color:gray;
+    width: 180px;
+
+}
+.categoria-map{
+    display:flex;
+
+
+}
+.categoria-map2{
+
+
+}
+.container-swiper{
+    height:200px;
+    background-color: blue;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+*/
+.swiper {
+    width: 1200px;
+    height: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+  } 

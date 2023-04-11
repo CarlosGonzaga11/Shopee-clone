@@ -1,0 +1,15 @@
+.container-cupons{
+    display:flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    gap:8px;
+    background-color: yellow !important;
+    margin-right: 30px;
+}
+.container-cupons img{
+
+    width:390px;
+    height: 110px;
+}

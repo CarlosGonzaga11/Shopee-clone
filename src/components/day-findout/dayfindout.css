@@ -1,0 +1,29 @@
+.container-dayfindout{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1920px;
+
+    border-bottom: 3px solid red;
+
+}
+.find{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 3px solid red;
+
+}
+
+.dayfindout{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 5px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 150px;
+}

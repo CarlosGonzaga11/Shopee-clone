@@ -1,0 +1,35 @@
+.container-categorycard-slider {
+  width: 140px;
+  background-color: green;
+  display: flex;
+  align-items: flex-start;
+  justify-self: flex-start;
+
+  overflow: none;
+}
+.container-card {
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 140px;
+  height: 180px;
+  border-radius: 2px;
+  border: 1px solid rgb(235, 228, 228);
+}
+.image-circle {
+  width: 70px;
+  height: 70px;
+}
+
+.title-text {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  background-color: gray;
+}

@@ -1,0 +1,70 @@
+.container-car-total {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+.headershopee {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.container-car {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: gray;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-product {
+  background-color: blue;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  height: 500px;
+  justify-content: space-between;
+}
+.container-area {
+  margin: 5px;
+}
+
+.confirm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 150px;
+  gap: 20px;
+}
+.confirm p {
+  font-size: 20px;
+}
+.confirm button {
+  width: 200px;
+  height: 40px;
+}
+.list-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: inherit;
+  height: 60px;
+}
+.container-car {
+  background-color: blue;
+  height: 700px;
+  width: 90%;
+
+  border-radius: 5px;
+}
+.list-title p {
+  padding: 20px;
+  border: 1px solid white;
+}
+.conteudo-cart {
+  background-color: yellow;
+  width: 90%;
+  height: 70%;
+}

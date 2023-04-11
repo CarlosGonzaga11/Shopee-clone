@@ -1,0 +1,14 @@
+.container-banner-compra{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    height: 340px;
+    gap: 10px;
+}
+.banner-euquero{
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.container-card {
+  width: 190px;
+  height: 282px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 4px;
+}
+.container-details{
+    gap: 7px;
+}
+.container-img {
+  background-color: blue;
+  width: 182px;
+  margin-top: 3px;
+  height: 200px;
+}
+.width-img{
+    width:182px;
+    height: 200px;
+}
+
+.title-product {
+  width: 160px;
+  height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-weight: 200px;
+}
+.nacional {
+  padding-left: 5px;
+
+  border: 1px solid blue;
+  width: 93px;
+  display: flex;
+  align-items: center;
+  color: blue;
+}
+.nacional p {
+  padding: 0;
+}
+.price-and-sell {
+  display: flex;
+  justify-content: space-between;
+}
+.red {
+  color: red;
+}
+.sold {
+  color: gray;
+  opacity: 0.9;
+}
