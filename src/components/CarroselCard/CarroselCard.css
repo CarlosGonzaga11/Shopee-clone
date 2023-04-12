@@ -1,27 +1,25 @@
-.container-card-carrosel{
-    width:120px;
-    background-color: white;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    border: 0.5px solid gray;
-    flex-direction: column;
-    justify-content: center;
+.container-card-carrosel {
+  width: 120px;
+  background-color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid gray;
+  flex-direction: column;
+  justify-content: center;
 }
-.container-img-carrosel{
-    width: 80px;
-    height: 80px;
+.container-img-carrosel {
+  width: 80px;
+  height: 80px;
 }
-.img-carrosel{
-    width: 80px;
-    height: 80px;
-
-
+.img-carrosel {
+  width: 80px;
+  height: 80px;
 }
-.container-title-carrosel{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 104px;
-    height: 40px;
+.container-title-carrosel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 40px;
 }

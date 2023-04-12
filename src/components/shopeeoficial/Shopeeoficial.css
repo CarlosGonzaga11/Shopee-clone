@@ -1,5 +1,5 @@
 .container-shopee {
-  max-width: 1920px;
+  max-width: 1120px;
   margin: 0 auto;
   background-color: white;
 }
@@ -19,7 +19,6 @@
   display: flex;
   width: 100%;
   align-items: center;
-
   margin: 0 auto;
 }
 .container-logo-shopee-oficial h4 {

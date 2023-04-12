@@ -1,99 +1,102 @@
-.footer{
-    background: white;
-    display: flex;
-    margin: 0 auto;
-    max-width:1920px;
-    height: 500px;
-    flex-direction: column;
-    padding-top: 50px;
+.footer {
+  background: white;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1120px;
+  height: 500px;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.footer-container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+}
+.payment {
+  display: flex;
 
+  flex-direction: column;
+  gap: 5px;
 }
-.footer-container{
-    display: flex;
-    background-color: white;
-    width:100%;
-    height: 400px;
-    align-items: flex-start;
-    justify-content:space-evenly;
-    border-bottom: 1px solid gray;
+.bankcard1 {
+  display: flex;
 }
-.payment{
-    display: flex;
+.card-white img {
+  width: 55px;
+  height: 22px;
+}
+.bankcard2 {
+  display: flex;
+}
+.card-white {
+  width: 60px;
+  height: 30px;
+  background-color: white;
 
-    flex-direction:column;
-    gap: 5px;
+  border-radius: 2px;
+  margin: 2px;
 }
-.bankcard1{
-    display: flex;
-
+.footer-qrcode {
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  gap: 10px;
+  border: 1px solid red;
 }
-.card-white img{
-    width:55px;
-    height: 22px;
-}
-.bankcard2{
-    display: flex;
-}
-.card-white{
-    width: 60px;
-    height: 30px;
-    background-color:white;
-
-    border-radius: 2px;
-    margin: 2px;
+.googlestore {
+  display: flex;
+  margin-top: 5px;
+  gap: 2px;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
-.footer-qrcode{
-    display: flex;
-    gap: 10px;
-
+.app-store {
+  width: 38px;
+  height: 15px;
 }
-.googlestore{
-    display: flex;
-    flex-direction:column;
+.width {
+  width: 19%;
 }
-.googlestore img{
-    width:30px;
-    height: 15px;
+.title-footer {
+  font-weight: 300px;
+  padding: 15px 0px;
 }
-.width{
-    width: 19%;
+p {
+  padding: 7px 0px;
+  font-size: 12px;
 }
-.title-footer{
-    font-weight: 300px;
-    padding: 15px 0px;
+.follow-us {
 }
-p{
-    padding: 7px 0px;
-    font-size: 12px;
+.siga-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
-.follow-us{
-    
+.siga-icons img {
+  width: 15px;
+  height: 15px;
 }
-.siga-icons{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.icon-and-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
 }
-.siga-icons img{
-    width: 15px;
-    height: 15px;
+.icon-and-title p {
+  font-size: 14px;
 }
-.icon-and-title{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
+.shopee-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.icon-and-title p{
-    font-size:14px;
-}
-.shopee-rodape{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.shopee-rodape p{
-    padding: 40px 15px;
+.shopee-rodape p {
+  padding: 40px 15px;
 }

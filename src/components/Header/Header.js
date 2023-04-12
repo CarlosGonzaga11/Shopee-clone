@@ -9,6 +9,7 @@ import search from "../../svg/search.svg";
 import shopcar from "../../svg/shopcar.svg";
 import tiktok from "../../svg/tiktok.svg";
 import twitter from "../../svg/twitter.svg";
+import shopeewhite from "../../svg/shopeewhite.svg";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -67,11 +68,12 @@ function Header() {
             placeholder="Buscar na Shopee"
           ></input>
         </div>
-        <Link to="/car">
+
         <button className="shop-car">
-          <img src={shopcar} />
+          <Link to="/car">
+            <img src={shopcar} />
+          </Link>
         </button>
-        </Link>
       </div>
       <div className="container-itens-search">
         <div className="itens-search">

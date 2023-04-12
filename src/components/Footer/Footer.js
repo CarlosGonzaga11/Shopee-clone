@@ -63,21 +63,19 @@ function Footer() {
           </div>
           <div className="bankcard2">
             <div className="card-white">
-
               <img src={elo} />
             </div>
             <div className="card-white">
-
               <img src={americanexpress} />
             </div>
             <div className="card-white">
-
               <img src={boleto} />
             </div>
           </div>
           <div className="bankcard3">
             <div className="card-white">
-              {" "}              <img src={pix} />
+              {" "}
+              <img src={pix} />
             </div>
           </div>
         </div>
@@ -115,8 +113,8 @@ function Footer() {
             <img src={qrcode} />
           </div>
           <div className="googlestore">
-            <img src={appstore} />
-            <img src={googleplay} />
+            <img className="app-store" src={appstore} />
+            <img className="app-store" src={googleplay} />
           </div>
         </div>
       </div>

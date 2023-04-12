@@ -57,7 +57,6 @@ function Shopeeoficial() {
             <div className="container-img">
               <img src={drinks} />
             </div>
-           
           </div>
           <div className="company-line2">
             <div className="container-img">

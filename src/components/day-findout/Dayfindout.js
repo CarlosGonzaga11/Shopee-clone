@@ -1,5 +1,5 @@
-import React, { useState,useContext} from "react";
-import {CartContext } from '../../contexts/cartContext'
+import React, { useState, useContext } from "react";
+import { CartContext } from "../../contexts/cartContext";
 import "./dayfindout.css";
 import Productcard from "../Productcard/Productcard";
 import produto5camisa from "../../img/produto5camisa.jpg";
@@ -17,6 +17,7 @@ const product = [
     name: "Kit 5 Camiseta Masculina Básica Lisa Slim Algodão ORIGNS",
     img: produto5camisa,
     sold: "451",
+    quantity: 3,
     price: "139,00",
     nacional: "Vendedor Local",
   },
@@ -26,6 +27,7 @@ const product = [
     img: produtocalca,
     sold: "7,8",
     price: "53,96",
+    quantity: 1,
     nacional: "",
   },
   {
@@ -33,6 +35,7 @@ const product = [
     name: "kit 5 Camisetas Atacado Revenda multimarcas masculino Alto Padrão",
     img: produtocamisa,
     sold: "16",
+    quantity: 1,
     price: "89,90",
     nacional: "",
   },
@@ -42,6 +45,7 @@ const product = [
     img: produtojaqueta,
     sold: "3,5",
     price: "77,91",
+    quantity: 1,
     nacional: "Vendedor Local",
   },
   {
@@ -49,6 +53,7 @@ const product = [
     name: "Tênis AIR FORCE, caminhada, esportes, corrida, masculino, feminino, promoção",
     img: produtotenis,
     sold: "217",
+    quantity: 1,
     price: "41,99",
     nacional: "",
   },
@@ -57,6 +62,7 @@ const product = [
     name: "Boné Aba Curva Curvada Resina Premium Liso Masculino Dad Hat Strapback Ajustável Fitão",
     img: produtobone,
     sold: "2",
+    quantity: 1,
     price: "99,99",
     nacional: "",
   },
@@ -65,6 +71,7 @@ const product = [
     name: "Kit 24 Pares Meias Soquetes Menor Preço do Brasil",
     img: produtomeia,
     sold: "763",
+    quantity: 1,
     price: "131,80",
     nacional: "",
   },
@@ -74,6 +81,7 @@ const product = [
     img: produto5camisa,
     sold: "5",
     price: "163,00",
+    quantity: 1,
     nacional: "",
   },
   {
@@ -82,6 +90,7 @@ const product = [
     img: produtocalca,
     sold: "93,1",
     price: "74,90",
+    quantity: 1,
     nacional: "Vendedor Local",
   },
   {
@@ -89,6 +98,7 @@ const product = [
     name: "kit 5 Camisetas Atacado Revenda multimarcas masculino Alto Padrão",
     img: produtocamisa,
     sold: "7,9",
+    quantity: 1,
     price: "42,92",
     nacional: "Vendedor Local",
   },
@@ -97,6 +107,7 @@ const product = [
     name: "Jaqueta Casual Masculina De Algodão Alcochoada Cor Sólida Combina Com Tudo-Alcochoado Esportiva Grossa",
     img: produtojaqueta,
     sold: "5,1",
+    quantity: 1,
     price: "49,90",
     nacional: "Vendedor Local",
   },
@@ -104,6 +115,7 @@ const product = [
     id: 12,
     name: "Tênis AIR FORCE, caminhada, esportes, corrida, masculino, feminino, promoção",
     img: produtotenis,
+    quantity: 1,
     sold: "733",
     price: "29,99",
   },
@@ -112,6 +124,7 @@ const product = [
     name: "Conjunto Relógio Masculino + Corrente + Pulseira + Óculos + Boné Fé",
     img: produtokitacessorio,
     sold: "9",
+    quantity: 1,
     price: "179,10",
     nacional: "Vendedor Local",
   },
@@ -120,6 +133,7 @@ const product = [
     name: "Bolsas Femininas",
     img: produtobone,
     sold: "1,1",
+    quantity: 1,
     price: "220,99",
     nacional: "",
   },
@@ -128,6 +142,7 @@ const product = [
     name: "Kit 24 Pares Meias Soquetes Menor Preço do Brasil",
     img: produtomeia,
     sold: "43",
+    quantity: 1,
     price: "17,99",
     nacional: "Vendedor Local",
   },
@@ -136,6 +151,7 @@ const product = [
     name: "Jaqueta Casual Masculina De Algodão Alcochoada Cor Sólida Combina Com Tudo-Alcochoado Esportiva Grossa",
     img: produtojaqueta,
     sold: "5,1",
+    quantity: 1,
     price: "49,90",
     nacional: "Vendedor Local",
   },
@@ -144,6 +160,7 @@ const product = [
     name: "Tênis AIR FORCE, caminhada, esportes, corrida, masculino, feminino, promoção",
     img: produtotenis,
     sold: "733",
+    quantity: 1,
     price: "29,99",
   },
   {
@@ -151,6 +168,7 @@ const product = [
     name: "Conjunto Relógio Masculino + Corrente + Pulseira + Óculos + Boné Fé",
     img: produtokitacessorio,
     sold: "9",
+    quantity: 1,
     price: "179,10",
     nacional: "Vendedor Local",
   },
@@ -159,6 +177,7 @@ const product = [
     name: "Boné Aba Curva Curvada Resina Premium Liso Masculino Dad Hat Strapback Ajustável Fitão",
     img: produtobone,
     sold: "1,1",
+    quantity: 1,
     price: "220,99",
     nacional: "",
   },
@@ -167,6 +186,7 @@ const product = [
     name: "Kit 24 Pares Meias Soquetes Menor Preço do Brasil",
     img: produtomeia,
     sold: "43",
+    quantity: 1,
     price: "17,99",
     nacional: "Vendedor Local",
   },
@@ -175,6 +195,7 @@ const product = [
     name: "Jaqueta Casual Masculina De Algodão Alcochoada Cor Sólida Combina Com Tudo-Alcochoado Esportiva Grossa",
     img: produtojaqueta,
     sold: "5,1",
+    quantity: 1,
     price: "49,90",
     nacional: "Vendedor Local",
   },
@@ -183,6 +204,7 @@ const product = [
     name: "Tênis AIR FORCE, caminhada, esportes, corrida, masculino, feminino, promoção",
     img: produtotenis,
     sold: "733",
+    quantity: 1,
     price: "29,99",
   },
   {
@@ -191,6 +213,7 @@ const product = [
     img: produtokitacessorio,
     sold: "9",
     price: "179,10",
+    quantity: 1,
     nacional: "Vendedor Local",
   },
   {
@@ -199,6 +222,7 @@ const product = [
     img: produto5camisa,
     sold: "451",
     price: "139,00",
+    quantity: 1,
     nacional: "Vendedor Local",
   },
   {
@@ -206,6 +230,7 @@ const product = [
     name: "Calça Jeans Skinny Com Ziper Lycra Elastano Masculina Nova Tendencia",
     img: produtocalca,
     sold: "7,8",
+    quantity: 1,
     price: "53,96",
     nacional: "",
   },
@@ -215,13 +240,14 @@ const product = [
     img: produtocamisa,
     sold: "16",
     price: "89,90",
+    quantity: 1,
     nacional: "",
   },
 ];
 function Dayfindout() {
   const [selectedCards, setSelectedCards] = useState([]);
 
-  const { handleCardClick} = useContext(CartContext);
+  const { handleCardClick } = useContext(CartContext);
   return (
     <div className="container-dayfindout">
       <div className="find">
@@ -234,14 +260,13 @@ function Dayfindout() {
             key={prod.id}
             id={prod.id}
             name={prod.name}
+            quantity={prod.quantity}
             image={prod.img}
             sold={prod.sold}
             price={prod.price}
             nacional={prod.nacional}
-           
           />
         ))}
-  
       </div>
     </div>
   );

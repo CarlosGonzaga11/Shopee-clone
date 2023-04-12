@@ -1,25 +1,57 @@
-.container-CardCart{
-    margin: 0 auto;
-    display: flex;
-    height:200px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    background-color: red;
-     margin-bottom: 5px;
-     border-radius: 5px;
+.container-CardCart {
+  margin: 0 auto;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  margin-bottom: 5px;
+  border-radius: 5px;
+
+}
+.image-CardCart {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+
+}
+.image-CardCart img{
+  margin-top: 3px;
+  width:90px;
+  height: 90px;
+}
+.CardCart {
+  width: 65px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid white;
+}
+.area-card-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(14, 230, 79);
+  width: 95px;
+  height: 130px;
+  border-radius:2px;
+  margin-left: 3px;
+
+}
+.name-CardCart p{
+  font-size:7px;
+  padding-left: 5px;
+  width: 90px; /* Largura máxima do parágrafo */
+
+
   
 }
-.image-CardCart{
-    width:95px;
-    height: 120px;
-    border: 1px solid white;
-}
-.CardCart{
-    width: 65px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid white;
+.name-CardCart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

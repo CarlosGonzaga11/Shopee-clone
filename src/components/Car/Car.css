@@ -7,9 +7,13 @@
   width: 100%;
   gap: 20px;
 }
-
+.logo-car {
+  width: 200px;
+  height: 90px;
+  margin-left: 50px;
+}
 .container-car {
-  max-width: 1920px;
+  max-width: 1120px;
   margin: 0 auto;
   background-color: gray;
   height: 700px;
@@ -66,5 +70,6 @@
 .conteudo-cart {
   background-color: yellow;
   width: 90%;
+
   height: 70%;
 }

@@ -1,5 +1,5 @@
-import React , {useState}from "react";
-import './category.css';
+import React, { useState } from "react";
+import "./category.css";
 import casaedecoracao from "../../img/casaedecoracao.png";
 import celularesedispositivos from "../../img/celularesedispositivos.png";
 import brinquedo from "../../img/brinquedo.png";
@@ -7,8 +7,8 @@ import roupasfemininas from "../../img/roupasfemininas.jpg";
 import beleza from "../../img/beleza.png";
 import sapatosfemininos from "../../img/sapatosfemininos.png";
 import Categorycard from "../categorycard/Categorycard";
-import movetoLeft from '../../svg/movetoLeft.svg'
-import movetoRight from '../../svg/movetoRight.svg'
+import movetoLeft from "../../svg/movetoLeft.svg";
+import movetoRight from "../../svg/movetoRight.svg";
 const categoria = [
   {
     id: 1,
@@ -110,7 +110,7 @@ const categoria = [
     name: "Relógios",
     img: sapatosfemininos,
   },
-  
+
   {
     id: 21,
     name: "Sapatos Masculinos",
@@ -141,34 +141,31 @@ const categoria = [
     name: "Relógios",
     img: sapatosfemininos,
   },
-
-
 ];
 
 function Category() {
-
   return (
     <div className="container-category">
       <div className="container-show">
-      <div className="categoria-title">
-        <h4>CATEGORIAS</h4>
-      </div>
-      <div className="categoria-card">
-        {categoria.map((cate, index) => {
-          return <Categorycard
-            image={cate.img}
-            title={cate.name}
-            id={cate.id}
-            
-          />
-          
-                  
-        })}
-      </div>
-      <div className="icons-move">
-      <div className="movetoLeft"> <img src={movetoLeft}/> </div>
-      <div className="movetoRight"><img src={movetoRight}/> </div>
-      </div>
+        <div className="categoria-title">
+          <h4>CATEGORIAS</h4>
+        </div>
+        <div className="categoria-card">
+          {categoria.map((cate, index) => {
+            return (
+              <Categorycard image={cate.img} title={cate.name} id={cate.id} />
+            );
+          })}
+        </div>
+        <div className="icons-move">
+          <div className="movetoLeft">
+            {" "}
+            <img src={movetoLeft} />{" "}
+          </div>
+          <div className="movetoRight">
+            <img src={movetoRight} />{" "}
+          </div>
+        </div>
       </div>
     </div>
   );
